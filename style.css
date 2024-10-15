@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:  #181818;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+.logo-web img{
+    width: 90px;
+    height: 90px;
+}
+.nav-links ul{
+    display: flex;
+    gap: 2.5rem;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(110, 19, 194);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: rgb(244, 167, 66);
+    font-size: 1.3rem;
+}
+html{
+    overflow-x: hidden;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 140px;
+    height: 50px;
+    background-color:rgb(99, 90, 200);
+    border: none;
+    border-radius: 10px;
+}
+.login{
+    margin: 0px 200px;
+    margin-top: 50px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.news-section h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(110, 19, 194);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top:50px;
+    padding: 30px 60px;
+    gap: 2rem;
+}
+.travel1{
+    height: 250px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.travel1:hover{
+    transform: scale(1.1);
+}
