@@ -3,7 +3,8 @@
     padding: 0px;
 }
 body{
-    background-color:  #181818;
+    /*background-color:   #4e1188;*/
+    background-color: aliceblue;
 }
 
 .navbar{
@@ -12,14 +13,22 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 20px 50px;
+    background-color: hsl(0, 0%, 9%);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
 }
 .logo-web img{
     width: 90px;
     height: 90px;
+    padding: 0px 10px;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 .nav-links ul{
     display: flex;
     gap: 2.5rem;
+    padding: 0px 30px ;
 }
 .nav-links li{
     list-style: none;
@@ -34,8 +43,11 @@ body{
     align-items: center;
 }
 .title{
-    color: rgb(244, 167, 66);
-    font-size: 1.3rem;
+    color: rgb(20, 20, 19);
+    font-size: 2rem;
+    font-family: Spectral, serif;
+    font-size: 42px;
+    margin-left: 30px;
 }
 html{
     overflow-x: hidden;
@@ -43,6 +55,13 @@ html{
 .text{
     display: flex;
     flex-direction: column;
+}
+.info{
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 30px;
+    line-height: 1.7rem;
+    color: rgb(70, 10, 125);
 }
 button{
     width: 140px;
@@ -60,11 +79,16 @@ button{
     color: white;
     font-size: 1rem;
 }
+.image1 img{
+    width: 650px;
+    height: 500px;
+    
+}
 
 .news-section h1{
     text-align: center;
     margin-top: 50px;
-    color: rgb(110, 19, 194);
+    color: hsl(203, 30%, 26%);
 }
 .container{
     display: grid;
