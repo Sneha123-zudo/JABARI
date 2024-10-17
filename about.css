@@ -6,7 +6,9 @@ body{
     /*background-color:   #4e1188;*/
     background-color: aliceblue;
 }
-
+html{
+    overflow-x: hidden;
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -195,4 +197,8 @@ footer{
     color:hsl(203, 30%, 26%) ;
     font-size: 1.2rem;
     margin-top: 30px;
+}
+.video{
+    margin-left: 150px;
+    margin-bottom: 100px;
 }
