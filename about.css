@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*background-color:   #4e1188;*/
+    background-color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+    background-color: hsl(0, 0%, 9%);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.logo-web img{
+    width: 90px;
+    height: 90px;
+    padding: 0px 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.nav-links ul{
+    display: flex;
+    gap: 2.5rem;
+    padding: 0px 30px ;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(110, 19, 194);
+}
+.nav-links li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}

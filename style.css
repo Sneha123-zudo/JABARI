@@ -37,6 +37,10 @@ body{
     text-decoration: none;
     color: rgb(110, 19, 194);
 }
+.nav-links li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
 .section{
     display: flex;
     justify-content: center;
@@ -110,6 +114,9 @@ button{
     border-radius: 30px;
     padding: 0px 20px;
 
+}
+.card1:hover{
+    background-color: black; 
 }
 .card1 h1 {
     color: rgb(110, 19, 194);
